@@ -24,6 +24,6 @@ var z bool
 
 func main() {
 	fmt.Printf("%v\t%T\n", x, x)
-	fmt.Printf("'%v'\t%T\n", y, x)
-	fmt.Printf("%v\t%T\n", z, x)
+	fmt.Printf("'%v'\t%T\n", y, y)
+	fmt.Printf("%v\t%T\n", z, z)
 }
