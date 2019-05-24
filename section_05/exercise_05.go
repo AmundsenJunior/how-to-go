@@ -3,7 +3,7 @@
   at the package level scope, using the “var” keyword, create a VARIABLE with the IDENTIFIER “y”. 
   The variable should be of the UNDERLYING TYPE of your custom TYPE “x”
   eg:
-	  type hotdog int
+	type hotdog int
     var x hotdog
     var y int
   in func main
@@ -19,4 +19,23 @@
   print out the type of “y”
   code: here’s the solution: https://play.golang.org/p/cj8RrYgBOD 
   */
-  
+
+package main
+
+import "fmt"
+
+type edward int
+
+var t edward
+var u int
+
+func main() {
+	fmt.Println(t)
+	fmt.Printf("%T\n", t)
+	t = 2357
+	fmt.Println(t)
+	u = int(t)
+	fmt.Println(u)
+	fmt.Printf("%T\n", u)
+}
+

@@ -12,3 +12,17 @@
   code: here’s the solution: https://play.golang.org/p/snm4WuuYmG 
   */
   
+package main
+
+import "fmt"
+
+type scott int
+
+var s scott
+
+func main() {
+	fmt.Println(s)
+	fmt.Printf("%T\n", s)
+	s = 42
+	fmt.Println(s)
+}
