@@ -7,7 +7,7 @@
   a single print statement
   multiple print statements
   code: here’s the solution: https://play.golang.org/p/yYXnWXIQNa
-*/
+ */
 
 package main
 

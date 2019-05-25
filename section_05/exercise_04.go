@@ -10,7 +10,7 @@
   assign 42 to the VARIABLE “x” using the “=” OPERATOR
   print out the value of the variable “x”
   code: here’s the solution: https://play.golang.org/p/snm4WuuYmG 
-  */
+ */
   
 package main
 

@@ -18,7 +18,7 @@
   print out the value stored in “y”
   print out the type of “y”
   code: here’s the solution: https://play.golang.org/p/cj8RrYgBOD 
-  */
+ */
 
 package main
 

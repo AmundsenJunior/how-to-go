@@ -9,7 +9,7 @@
   ASSIGN the returned value of TYPE string using the short declaration operator to a VARIABLE with the IDENTIFIER “s”
   print out the value stored by variable “s”
   code: here’s the solution: https://play.golang.org/p/QFctSQB_h3 
-  */
+ */
 
 package main
 
