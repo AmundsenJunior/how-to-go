@@ -10,7 +10,7 @@
   U+0042 'B'
   … through the rest of the alphabet characters
   solution: https://play.golang.org/p/1OjnCX1D5H
- */
+*/
 
 package main
 

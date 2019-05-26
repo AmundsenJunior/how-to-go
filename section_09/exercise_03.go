@@ -3,7 +3,7 @@
   for condition { }
   Have it print out the years you have been alive.
   solution: https://play.golang.org/p/tnyqBPJ-i5
- */
+*/
 
 package main
 
@@ -16,4 +16,3 @@ func main() {
 		year++
 	}
 }
-

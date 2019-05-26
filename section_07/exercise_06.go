@@ -9,11 +9,12 @@ import "fmt"
 
 const (
 	year = 2019
-	a = year + iota
-	b = year + iota
-	c = year + iota
-	d = year + iota
+	a    = year + iota
+	b    = year + iota
+	c    = year + iota
+	d    = year + iota
 )
+
 func main() {
 	fmt.Println(a, b, c, d)
 }

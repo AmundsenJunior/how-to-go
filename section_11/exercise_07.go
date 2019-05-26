@@ -6,13 +6,13 @@
 
   Range over the records, then range over the data in each record.
   solution: https://play.golang.org/p/FMM4c2PhZg
- */
+*/
 
 package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	x := []string{"James", "Bond", "Shaken, not stirred"}
 	y := []string{"Miss", "Moneypenny", "Helloooooo, James"}
 

@@ -5,7 +5,7 @@
   shifts the bits of that int over 1 position to the left, and assigns that to a variable
   prints that variable in decimal, binary, and hex
   solution: https://play.golang.org/p/Ms964T8SbH
- */
+*/
 
 package main
 

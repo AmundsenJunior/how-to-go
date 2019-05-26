@@ -12,7 +12,7 @@
   print out the values for each identifier
   The compiler assigned values to the variables. What are these values called?
   code: here’s the solution: https://play.golang.org/p/jzHwSlles9
- */
+*/
 
 package main
 

@@ -1,17 +1,17 @@
 /*
   Using the code from the previous example, delete a record from your map. Now print the map out using the “range” loop
   solution: https://play.golang.org/p/TYl5EbjoeC
- */
+*/
 
 package main
 
 import "fmt"
 
-func main()  {
-	m := map[string][]string {
-		"Bond James": {"Shaken, not stirred", "Martinis", "Women"},
+func main() {
+	m := map[string][]string{
+		"Bond James":      {"Shaken, not stirred", "Martinis", "Women"},
 		"Moneypenny Miss": {"James Bond", "Literature", "Computer Science"},
-		"No Doctor": {"Being evil", "Ice cream", "Sunsets"},
+		"No Doctor":       {"Being evil", "Ice cream", "Sunsets"},
 	}
 
 	m["Fleming Ian"] = []string{"Writing", "Tea", "Expendable spies"}

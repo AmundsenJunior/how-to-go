@@ -5,7 +5,7 @@
   Range over the array and print the values out.
   Using format printing
   solution: https://play.golang.org/p/tD0SzV3hdf
- */
+*/
 
 package main
 
@@ -17,4 +17,3 @@ func main() {
 		fmt.Println(v)
 	}
 }
-

@@ -8,7 +8,7 @@
   >
   Now print each of the variables.
   solution: https://play.golang.org/p/76R-poSzaY
- */
+*/
 
 package main
 

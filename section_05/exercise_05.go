@@ -1,6 +1,6 @@
 /*
   Building on the code from the previous example
-  at the package level scope, using the “var” keyword, create a VARIABLE with the IDENTIFIER “y”. 
+  at the package level scope, using the “var” keyword, create a VARIABLE with the IDENTIFIER “y”.
   The variable should be of the UNDERLYING TYPE of your custom TYPE “x”
   eg:
 	type hotdog int
@@ -17,8 +17,8 @@
   then use the “=” operator to ASSIGN that value to “y”
   print out the value stored in “y”
   print out the type of “y”
-  code: here’s the solution: https://play.golang.org/p/cj8RrYgBOD 
- */
+  code: here’s the solution: https://play.golang.org/p/cj8RrYgBOD
+*/
 
 package main
 
@@ -38,4 +38,3 @@ func main() {
 	fmt.Println(u)
 	fmt.Printf("%T\n", u)
 }
-

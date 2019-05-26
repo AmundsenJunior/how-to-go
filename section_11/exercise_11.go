@@ -1,7 +1,7 @@
 /*
   once a slice made from make() expands due to append, and the underlying array is extended,
   reducing the size of the slice by itself does not reduce the size of the underlying array back down.
- */
+*/
 
 package main
 
@@ -26,4 +26,3 @@ func main() {
 	fmt.Println(x)
 	fmt.Println(len(x), cap(x)) // cap does not shrink back down to smaller/original array capacity
 }
-

@@ -8,17 +8,17 @@
   `no_dr`, `Being evil`, `Ice cream`, `Sunsets`
 
   solution: https://play.golang.org/p/nTzSlRa9_A
- */
+*/
 
 package main
 
 import "fmt"
 
-func main()  {
-	m := map[string][]string {
-		"Bond James": {"Shaken, not stirred", "Martinis", "Women"},
+func main() {
+	m := map[string][]string{
+		"Bond James":      {"Shaken, not stirred", "Martinis", "Women"},
 		"Moneypenny Miss": {"James Bond", "Literature", "Computer Science"},
-		"No Doctor": {"Being evil", "Ice cream", "Sunsets"},
+		"No Doctor":       {"Being evil", "Ice cream", "Sunsets"},
 	}
 
 	for k, v := range m {

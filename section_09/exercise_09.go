@@ -2,7 +2,7 @@
   Create a program that uses a switch statement with
   the switch expression specified as a variable of TYPE string with the IDENTIFIER “favSport”.
   solution: https://play.golang.org/p/h-8FnjpzWB
- */
+*/
 
 package main
 
@@ -20,4 +20,3 @@ func main() {
 		fmt.Println("everybody's favorite sport is chess")
 	}
 }
-
