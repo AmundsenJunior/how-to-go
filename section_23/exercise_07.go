@@ -15,20 +15,21 @@ import (
 )
 
 func main() {
+	x := 10
+	y := 10
 	c := make(chan int)
 
-	for i := 1; i <= 10; i++ {
+	for i := 0; i < x; i++ {
 		go func(k int) {
-			for j := 1; j <= 10; j++ {
-				c <- k + (j * 10)
-				if k * j == 100 {
-					close(c)
-				}
+			for j := 1; j <= y; j++ {
+				x := (k * 10) + j
+				c <- x
 			}
 		}(i)
 	}
 
-	for v := range c {
+	for i := 1; i < (x*y); i++ {
+		v := <-c
 		fmt.Println(v)
 	}
 
