@@ -6,7 +6,7 @@
       go test -v src/github.com/amundsenjunior/how-to-go/section_29/exercise_01/dog/main_test.go
     benchmarks:
       cd src/github.com/amundsenjunior/how-to-go/section_29/exercise_01/dog
-      go test -b .
+      go test -bench .
     coverage:
       cd src/github.com/amundsenjunior/how-to-go/section_29/exercise_01/dog
       go test -cover
